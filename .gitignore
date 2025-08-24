@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Logs & Databases ---
+*.log
+*.sqlite3
+*.db
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Testing / Coverage ---
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# --- Build / Packaging ---
+build/
+dist/
+*.spec
+*.manifest
+
+# --- Uvicorn / FastAPI (runtime cache) ---
+*.pid
