@@ -28,6 +28,7 @@ ENV/
 # --- OS Files ---
 .DS_Store
 Thumbs.db
+*DS_Store
 
 # --- Testing / Coverage ---
 .coverage
